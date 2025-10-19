@@ -20,6 +20,20 @@ profile.cov
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# log
+*.log
+
+# chrome
+.chrome-session/
+venv/
+
+# Macos Finder
+.DS_Store
+tildaparser_py/.DS_Store
+tildaparser_py/utils/.DS_Store
+tildaparser_py/elements/.DS_Store
+*.DS_Store
+
 # Go workspace file
 go.work
 go.work.sum
